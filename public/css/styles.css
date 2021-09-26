@@ -149,9 +149,7 @@ text-align: center;
 margin-right: 10px;
 margin-bottom: 50px;
 margin-top: -30px;
-
-
-    
+  
 }
 
 article h4.descripcion {
@@ -345,6 +343,14 @@ text-align: center;
 /* Desktops */
 @media (min-width: 769px) {
     
+
+    .footer-flex {
+
+        display:flex;
+
+    }
+
+
 
     .responsive-logo {
         width: 200px;
