@@ -11,6 +11,9 @@
 
 }
 
+.div-input input {
+    margin : 5px;
+}
 
 main h3, h4 {
 
@@ -26,8 +29,53 @@ button {
 
 }
 
+.main-header {
+
+    background-color: #EAC926;
+    border: solid #EAC926;
+    margin: 0%;
+    top: 0;
+    padding: 20px;
+    padding-bottom: 5px;
+    box-sizing: border-box;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+
+}
+
+main {
+
+    display:block;
+    /* position: relative; */
+    top: 200px;
+    margin-left: auto;
+    margin-right: auto; 
+    width: 100%;
+    box-sizing: border-box;
+    
+    }
+
+
+@media (min-width: 361px) {
+
+main {
+
+    top: 320px;
+}
+
+
+    }
 @media (min-width: 769px) {
     
+
+    main {
+
+        top: 150px;
+    }
+    
+    
+        
 
     .footer-flex {
     
@@ -35,4 +83,4 @@ button {
     
     }
     
-    }
+}
