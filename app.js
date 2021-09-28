@@ -1,7 +1,7 @@
 const express = require ('express');
 const app = express();
 
-app.listen(3030, () => {
+app.listen( process.env.PORT || 3030, () => {
 
     console.log('Servidor corriendo OK');
 }
