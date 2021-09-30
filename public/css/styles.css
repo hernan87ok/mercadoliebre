@@ -105,7 +105,7 @@ article {
 }
 
 /* Mostrar sombra del producto solo en hover  */
-article:hover  {
+main article:hover  {
     box-shadow: 0px 0px 10px rgb(100 100 100);
 
 }
@@ -188,6 +188,15 @@ article h4.descripcion {
     width: 100px;
     height: auto;
     /* position: center; */
+}
+
+
+button {
+
+    background-color: #1259c3;
+    border: 2px solid #1259c3; 
+    color: white;
+
 }
 
 .burger-menu {
